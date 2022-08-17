@@ -6,7 +6,7 @@
   --color-text-secondary: #4e4e4e;
   --color-text-third: #999;
   --color-border: #eee;
-  --background-image: url("/images/theme/welcome-image.jpg");
+  --background-image: url("https://sunsummer-1253683021.cos.ap-guangzhou.myqcloud.com/image_s%2Fsea2%2Fsea2.jpg");
   --loading-image: url("/images/theme/loading.gif");
   --lazyload-image: url("/images/theme/loading.gif");
 }
@@ -22,7 +22,7 @@
     --color-text-secondary: #9899ab;
     --color-text-third: #7d8594;
     --color-border: #2b3038;
-    --background-image: url("/images/theme/welcome-image.jpg");
+    --background-image: url("https://sunsummer-1253683021.cos.ap-guangzhou.myqcloud.com/image_s%2Ffirework%2Ffirework8.jpg");
     --loading-image: url("/images/theme/loading.gif");
     --lazyload-image: url("/images/theme/loading.gif");
   }
@@ -35,7 +35,7 @@
   --color-text-secondary: #9899ab;
   --color-text-third: #7d8594;
   --color-border: #2b3038;
-  --background-image: url("/images/theme/welcome-image.jpg");
+  --background-image: url("https://sunsummer-1253683021.cos.ap-guangzhou.myqcloud.com/image_s%2Ffirework%2Ffirework8.jpg");
   --loading-image: url("/images/theme/loading.gif");
   --lazyload-image: url("/images/theme/loading.gif");
 }
@@ -62,7 +62,7 @@
 }
 body {
   margin: 0;
-  font-size: 14px;
+  font-size: 15px;
   color: var(--color-text);
   font-family: Hiragino Sans GB;
   background-color: var(--color-background);
@@ -1453,9 +1453,6 @@ body input {
 .post .post-item .post-wrap .post-image img:hover {
   transition: all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
 }
-.post .post-item .post-wrap .post-image img:hover {
-  filter: grayscale(100%);
-}
 .post .post-item .post-wrap .post-content {
   position: relative;
   padding: 20px;
@@ -2021,10 +2018,6 @@ body input {
 .galleries .wrap .item {
   position: relative;
   padding-top: 100%;
-  transition: all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
-}
-.galleries .wrap .item:hover {
-  filter: grayscale(100%);
 }
 .galleries .wrap .item .title-wrap,
 .galleries .wrap .item img {
@@ -2078,9 +2071,6 @@ body input {
   padding-top: 100%;
   transition: all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
 }
-.gallery .wrap .item:hover {
-  filter: grayscale(100%);
-}
 .gallery .wrap .item img {
   position: absolute;
   display: block;
@@ -2103,9 +2093,6 @@ body input {
   align-items: center;
   position: absolute;
   transition: all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
-}
-.gallery .waterfallWrap .item:hover {
-  filter: grayscale(100%);
 }
 .gallery .waterfallWrap .item img {
   display: block;
